@@ -1,4 +1,4 @@
-<h1>Student Record System</h1>
+<h1>Student Management System</h1>
 <p>
   A web-based application to manage student records, built using HTML, CSS, JavaScript for the frontend, and PHP with MySQL for the backend. 
   This system allows users to add, update, delete, and view student records efficiently.
