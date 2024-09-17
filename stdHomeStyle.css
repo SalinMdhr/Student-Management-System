@@ -1,0 +1,38 @@
+*{
+    overflow: unset;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	margin-left: 11%;
+	margin-right: 20%;
+	margin-top: 80px;
+	width: 900px;
+	background-color: #b3afb483;
+	padding: 32px;
+	border-radius: 20px;
+    height: auto;
+}
+.main h1{
+	color: rgba(113, 99, 186, 255);
+	text-align: center;
+	padding-bottom: 25px;
+	cursor: default;
+}
+table{
+	margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 700px;
+    padding: 30px;
+    text-align: justify;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid rgba(113, 99, 186, 255);
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 10px;
+}

@@ -1,0 +1,104 @@
+*{
+    overflow: unset;
+}
+.container{
+    height: 100%;
+    min-height: 100vh;
+}
+.std{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	margin-left: 9%;
+	margin-right: 20%;
+	margin-top: 80px;
+	width: 900px;
+	background-color: #b3afb483;
+	padding: 32px;
+	border-radius: 20px;
+    height: auto;
+}
+.std h1, .heading{
+	color: rgba(113, 99, 186, 255);
+	text-align: center;
+	padding-bottom: 25px;
+	cursor: default;
+}
+table{
+	margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 700px;
+    padding: 30px;
+    text-align: justify;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid rgba(113, 99, 186, 255);
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    padding-left: 10px;
+}
+table input[type = "button"]{
+    cursor: pointer;
+    font-size: 22px;
+    width: 180px;
+    font-weight: bold;
+    margin-left: 76px;
+    border-radius: 10px;
+}
+table input[value = "Update"],input[value = "Add"]{
+    background: #4090db;
+}
+table input[value = "Delete"]{
+    background: rgb(235, 31, 31);
+} 
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 1080px;
+    background-color: #b3afb483;
+    padding: 32px;
+    border-radius: 20px;
+    height: auto;
+}
+.result a{
+    padding-right: 15px;
+}
+.result table{
+    text-align: center;
+}
+.result table input[type = "button"]{
+    width: 90px;
+    margin-left: 16px;
+    align-items: center;
+}
+
+.atd{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	margin-left: 9%;
+	margin-right: 20%;
+	margin-top: 30px;
+	width: 900px;
+	background-color: #b3afb483;
+	padding: 32px;
+	border-radius: 20px;
+    height: auto;
+}
+
+.para{
+    line-height: 40px;
+    width: 260px;
+    margin-top: 25px;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

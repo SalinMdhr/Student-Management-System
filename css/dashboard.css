@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+body{
+	display: flex;
+}
+.dash{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 240px;
+	height: 120vh;
+	color: whitesmoke;
+	background: #af6be7;
+	padding: 0 25px;
+	z-index: 1;
+}
+.space{
+	height: 80px;
+	padding: 16px;
+}
+.menu{
+	top: 0;
+	height: 88%;
+	position: relative;
+	list-style-type: none;
+}
+.menu li{
+	padding: 16px;
+	margin: 8px 0;
+}
+.menu li::after{
+    content: '';
+    display: flex;
+    justify-content: center;
+    /* left: 0; */
+    width: 97%;
+    height: 3px;
+    background: aqua;
+    border-radius: 5px;   
+    transform: scaleX(0);   
+    transition: transform .5s;
+    transform-origin: right;
+}
+.menu li:hover::after{
+    transform: scaleX(1);   
+    transform-origin: left;
+}
+.menu a{
+	color: whitesmoke;
+	font-size: 16px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.container{
+	position: relative;
+	background: #ebe9e9;
+	width: calc(100% - 240px);
+	padding: 16px;
+	margin-left: 240px;
+	min-height: 100vh;
+	height: 100%;
+}
+.head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* flex-wrap: wrap; */
+	background-color: #b3afb483;
+	border-radius: 15px;
+	padding: 10px 32px;
+	margin-bottom: 16px;
+	height: 70px;
+}
+.head a::after {
+    content: '';
+    display: flex;
+    justify-content: center;
+    /* left: 0; */
+    width: 100%;
+    height: 4px;
+    background: whitesmoke;
+    border-radius: 5px;   
+    transform: scaleX(0);   
+    transition: transform .5s;
+    transform-origin: right;
+}
+.head a:hover::after{
+    transform: scaleX(1);   
+    transform-origin: left;
+}
+.head a, .head p, .head #date{
+	text-decoration: none;
+	color: rgba(113, 99, 186, 255);
+}
+.head p, .head #date{
+	cursor: default;
+}
+.head p, .head #date, .head input{
+	font-size: 24px;
+}
+.head input{
+    background-color: rgb(238, 66, 66);
+	color: black;
+    padding: 4px;
+	border-radius: 5px;
+    cursor: pointer;
+	border: 1px solid #353935;
+	box-shadow: 1px 1px #353935;
+}
