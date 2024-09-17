@@ -31,6 +31,7 @@
     <li><b>MySQL:</b> Database management to store and retrieve student records.</li>
   </ul>
 </ul>
+<hr>
 
 <h2>Contact</h2>
 <p>For any questions or support, please reach out at salin.manandhar@gmail.com.</p>
